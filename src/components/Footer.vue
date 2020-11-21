@@ -43,7 +43,7 @@
 <style lang="scss" scoped>
   @import '@/assets/css/handle.scss';
   .footer {
-    /* background-color: #0f344a; */
+    background-color: #0f344a;
     @include background_color("background_color1");
     padding: 40px 200px;
     color: #fff;

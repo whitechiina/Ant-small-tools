@@ -21,7 +21,7 @@
               src="https://iconfont.alicdn.com/t/fe41d8a2-da59-4387-84aa-d14e19d44f02.png" />
             <a-card-meta title="代码执行器">
               <template slot="description">
-                在线执行JS代码
+                在线执行代码
               </template>
             </a-card-meta>
           </a-card>
