@@ -2,7 +2,7 @@
   <div class="header">
     <a-menu v-model="current" mode="horizontal">
       <a-menu-item key="mail" style="line-height: 60px;">
-        <router-link to="/">
+        <router-link to="/card">
           <a-icon type="mail" /> 首页 </router-link>
       </a-menu-item>
       <a-sub-menu>
@@ -55,20 +55,19 @@
         ]
       };
     },
+    created() {
+      // 初次加载时，根据主题名称加载对应的样式
+      if (localStorage.getItem('index') !== null) {
+        var ind = localStorage.getItem('index')
+        window.document.documentElement.setAttribute(
+          "data-theme",
+          ind ? "dark" : "light"
+        );
+      }
+    },
     methods: {
       routeTo(href) {
         this.$router.push(href);
-      },
-      created() {
-        console.log('123')
-        if (localStorage.getItem('index') !== null) {
-          var ind = localStorage.getItem('index')
-          console.log(ind)
-          window.document.documentElement.setAttribute(
-            "data-theme",
-            ind ? "dark" : "light"
-          );
-        }
       },
       color(index) {
         window.document.documentElement.setAttribute(
