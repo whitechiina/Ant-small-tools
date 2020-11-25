@@ -14,6 +14,19 @@
           </a-card>
         </a-col>
       </router-link>
+      <router-link to="/item">
+        <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
+          <a-card hoverable>
+            <img slot="cover" alt="example"
+              src="https://iconfont.alicdn.com/t/0227b8df-3c59-4328-9b01-0256c9036c19.png" />
+            <a-card-meta title="我的项目">
+              <template slot="description">
+                github真是个好东西
+              </template>
+            </a-card-meta>
+          </a-card>
+        </a-col>
+      </router-link>
       <router-link to="/code">
         <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
           <a-card hoverable>

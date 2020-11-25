@@ -10,11 +10,12 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    // proxyTable: {
-    //   "/song/media/*": {
-    //     target: 'http://nusic.163.com'
-    //   },
-    // },
+    proxyTable: {
+      "/users": {
+        target: 'http://api.github.com',
+        changeOrigin: true
+      },
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

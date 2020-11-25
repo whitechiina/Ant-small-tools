@@ -127,9 +127,9 @@
             this.smallToBig(e)
           } else {
             this.$notification['warning']({
-            message: '请你的脑汁清醒点',
-            description: '你真没这么多的钱',
-          });
+              message: '请你的脑汁清醒点',
+              description: '你真没这么多的钱',
+            });
           }
         } else {
           this.$notification['warning']({
@@ -143,7 +143,7 @@
     components: {
       TitleComponent
     }
-    
+
   };
 
 </script>
@@ -151,14 +151,17 @@
   .input {
     font-size: 24px;
     font-weight: 800;
+
     /deep/ .ant-input {
       height: 50px;
       font-size: 18px;
     }
   }
+
   .text {
     margin-top: 20px;
     font-size: 24px;
     font-weight: 800;
   }
+
 </style>

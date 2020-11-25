@@ -29,6 +29,10 @@
             path: '/serve',
           },
           {
+            name: '我的项目',
+            path: '/item'
+          },
+          {
             name: '倒计时',
             path: '/time'
           },
@@ -55,13 +59,23 @@
       routeTo(href) {
         this.$router.push(href);
       },
+      created() {
+        console.log('123')
+        if (localStorage.getItem('index') !== null) {
+          var ind = localStorage.getItem('index')
+          console.log(ind)
+          window.document.documentElement.setAttribute(
+            "data-theme",
+            ind ? "dark" : "light"
+          );
+        }
+      },
       color(index) {
-        console.log(window.document.documentElement)
-        //修改html的主题
         window.document.documentElement.setAttribute(
           "data-theme",
           index.index ? "dark" : "light"
         );
+        localStorage.setItem('index', this.index)
         this.index = !index.index;
       }
     }
@@ -70,6 +84,7 @@
 </script>
 <style lang="scss" scoped>
   @import '@/assets/css/handle.scss';
+
   .header {
     box-shadow: 0 2px 8px #f0f1f2;
   }
@@ -82,9 +97,10 @@
     @include font_color("font_color1")
   }
 
-  .ant-menu-horizontal > .ant-menu-item > a {
+  .ant-menu-horizontal>.ant-menu-item>a {
     @include font_color("font_color1");
   }
+
   .ant-menu-item {
     line-height: 60px;
   }
@@ -97,7 +113,9 @@
     float: left;
     line-height: 60px;
   }
+
   .ppt {
     @include border_color("border_color1");
   }
+
 </style>

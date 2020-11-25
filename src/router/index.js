@@ -6,6 +6,7 @@ import Number from '@/view/NumberView'
 import Music from '@/view/MusicView'
 import Code from '@/view/CodeView'
 import Topo from '@/view/TopoView'
+import Item from '@/view/ItemView'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/code',
       name: 'Code',
       component: Code
+    },
+    {
+      path: '/item',
+      name: 'Item',
+      component: Item
     }
     
   ]
