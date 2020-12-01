@@ -6,9 +6,9 @@
           <div class="title">
             <p>技术支持</p>
           </div>
-          <p><img src="../assets/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
+          <p><img src="../../static/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
           </p>
-          <p><img src="../assets/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
+          <p><img src="../../static/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
         </div>
       </a-col>
       <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
@@ -16,9 +16,9 @@
           <div class="title">
             <p>技术支持</p>
           </div>
-          <p><img src="../assets/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
+          <p><img src="../../static/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
           </p>
-          <p><img src="../assets/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
+          <p><img src="../../static/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
         </div>
       </a-col>
       <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
@@ -26,9 +26,9 @@
           <div class="title">
             <p>技术支持</p>
           </div>
-          <p><img src="../assets/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
+          <p><img src="../../static/images/antd.svg" style="width: 20px; height: 20px; margin-right: 10px;">Ant Design组件库
           </p>
-          <p><img src="../assets/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
+          <p><img src="../../static/images/vue.png" style="width: 20px; height: 20px; margin-right: 10px;">Vue框架</p>
         </div>
       </a-col>
     </a-row>

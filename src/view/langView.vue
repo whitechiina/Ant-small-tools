@@ -239,11 +239,6 @@
           }
         })
         players = players.sort((a, b) => Math.random() > 0.5 ? -1 : 1);
-        players = players.sort((a, b) => Math.random() > 0.5 ? -1 : 1);
-        players = players.sort((a, b) => Math.random() > 0.5 ? -1 : 1);
-        players = players.sort((a, b) => Math.random() > 0.5 ? -1 : 1);
-        players = players.sort((a, b) => Math.random() > 0.5 ? -1 : 1);
-        var a = [];
         players.forEach((value, index) => {
           this.roleTable.push({
             index: index + 1,
