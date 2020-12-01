@@ -2,7 +2,7 @@
   <div class="header">
     <a-menu v-model="current" mode="horizontal">
       <a-menu-item key="mail" style="line-height: 60px;">
-        <router-link to="/card">
+        <router-link to="/">
           <a-icon type="mail" /> 首页 </router-link>
       </a-menu-item>
       <a-sub-menu>

@@ -90,6 +90,19 @@
           </a-card>
         </a-col>
       </router-link>
+      <router-link to="/lang">
+        <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
+          <a-card hoverable>
+            <img slot="cover" alt="example"
+              src="https://iconfont.alicdn.com/t/17ad0320-1bca-4ddc-a8e6-4bde2477e158.png" />
+            <a-card-meta title="狼人杀">
+              <template slot="description">
+                狼人杀发牌工具
+              </template>
+            </a-card-meta>
+          </a-card>
+        </a-col>
+      </router-link>
     </a-row>
   </div>
 </template>
