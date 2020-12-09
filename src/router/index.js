@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Css from '@/view/CssView'
 import Card from '@/view/CardView'
 import Time from '@/view/timeView'
 import Number from '@/view/NumberView'
@@ -18,6 +19,11 @@ export default new Router({
       path: '/',
       name: 'Card',
       component: Card
+    },
+    {
+      path: '/css',
+      name: 'Css',
+      component: Css
     },
     {
       path: '/time',

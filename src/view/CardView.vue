@@ -1,14 +1,14 @@
 <template>
   <div class="card">
     <a-row>
-      <router-link to="/">
+      <router-link to="/css">
         <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
           <a-card hoverable>
             <img slot="cover" alt="example"
               src="https://iconfont.alicdn.com/t/5b5b581e-e16f-423e-8ccc-8a7785d4c9bc.png" />
-            <a-card-meta title="服务监控">
+            <a-card-meta title="奇幻CSS">
               <template slot="description">
-                服务器监测
+                贝塞尔曲线
               </template>
             </a-card-meta>
           </a-card>
