@@ -71,6 +71,7 @@
     width: 100%;
     height: 300px;
     top: 50%;
+    left: 100px;
     color: #c2d4ff;
   }
   .global-item-conter {
@@ -85,7 +86,6 @@
     flex-direction: column;
     align-self: center;
     text-align: center;
-    z-index: 999;
     div {
       position: absolute;
       text-align: center;
