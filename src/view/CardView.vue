@@ -103,6 +103,33 @@
           </a-card>
         </a-col>
       </router-link>
+      <router-link to="/Popover">
+        <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
+          <a-card hoverable>
+            <img slot="cover" alt="example"
+              src="https://iconfont.alicdn.com/t/17ad0320-1bca-4ddc-a8e6-4bde2477e158.png" />
+            <a-card-meta title="Popover组件">
+              <template slot="description">
+                el-Popover组件
+              </template>
+            </a-card-meta>
+          </a-card>
+        </a-col>
+      </router-link>
+      <!-- 我们认识了多久 -->
+      <router-link to="/Love">
+        <a-col :span="6" style="padding-left: 7.5px; padding-right: 7.5px; padding-bottom: 15px;">
+          <a-card hoverable>
+            <img slot="cover" alt="example"
+              src="https://iconfont.alicdn.com/t/5eece56f-8c18-444a-9084-e007a77ed170.png" />
+            <a-card-meta title="恋爱记忆">
+              <template slot="description">
+                我们认识了多久？
+              </template>
+            </a-card-meta>
+          </a-card>
+        </a-col>
+      </router-link>
     </a-row>
   </div>
 </template>

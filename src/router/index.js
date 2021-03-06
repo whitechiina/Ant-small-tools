@@ -9,6 +9,8 @@ import Code from '@/view/CodeView'
 import Topo from '@/view/TopoView'
 import Item from '@/view/ItemView'
 import Lang from '@/view/LangView'
+import Popover from '@/view/PopoverView'
+import Love from '@/view/LoveView'
 
 Vue.use(Router)
 
@@ -59,6 +61,16 @@ export default new Router({
       path: '/Lang',
       name: 'Lang',
       component: Lang
+    },
+    {
+      path: '/Popover',
+      name: 'Popover',
+      component: Popover
+    },
+    {
+      path: '/Love',
+      name: 'Love',
+      component: Love
     }
   ]
 })

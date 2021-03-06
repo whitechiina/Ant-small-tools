@@ -51,6 +51,10 @@
           {
             name: 'topo编辑',
             path: '/topo'
+          },
+          {
+            name: '恋爱定时',
+            path: '/love'
           }
         ]
       };
